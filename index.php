@@ -18,6 +18,7 @@
         <option value="d12">D12</option>
         <option value="d20">D20</option>
 </select>
+<input type="submit">
     </form>
     <?php require "rng.php";?>
 </body>
