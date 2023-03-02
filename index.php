@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="rng.php" method="get">
-       Number of dice: <input type="number" name="number-of-dice">
+       Number of dice: <input type="number" name="number-of-dice" max=10 min=1>
        <br>
        Type of dice: <select name="type-of-dice" id="type-of-dice">
         <option value="">Please choose the type of dice</option>
